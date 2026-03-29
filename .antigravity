@@ -1,0 +1,20 @@
+# Antigravity Rules: Placement Management System
+
+## General
+- Always use Layered Architecture (Controller, Service, Repository, DTO).
+- Use Lombok to minimize boilerplate.
+- Use 'Standard' Java naming conventions.
+
+## Environment (CachyOS/Arch)
+- Preferred Build Tool: Maven.
+- Database: MySQL (Service name: mysqld).
+- Terminal: Use zsh (my default).
+
+## Interaction Protocol
+1. Before running any `rm` or destructive command, ask for confirmation.
+2. If a Maven build fails, automatically read the logs and attempt a fix before asking me.
+3. Every time a Feature is completed (e.g., 'Job CRUD'), suggest a Git commit.
+
+## Database
+- DB Name: placement_db
+- Create the schema automatically if it's missing.
